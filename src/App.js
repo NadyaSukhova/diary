@@ -15,11 +15,9 @@ class App extends React.Component {
     return (
       <div>
         <Hello />
-        <button onClick={this.checkMySQL()}/>
+        <Login />
       </div>
     );
-  }
-  checkMySQL() {
   }
 }
 
