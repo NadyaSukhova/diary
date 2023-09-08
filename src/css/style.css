@@ -1,0 +1,43 @@
+@font-face {
+    font-family: myFont;
+    src: url(Comforter.otf);
+  }
+
+
+h1 {
+
+    padding: 30px;
+    font-size: 15mm;
+    font-weight:normal; 
+    font-family: myFont;
+    width:fit-content;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: bisque;
+    color: rgb(83, 39, 8);
+}
+
+#pics {
+    position:fixed;
+    right: 30px;
+    top: 15px;
+    
+}
+
+aside form {
+    width: 20%;
+}
+
+aside form input {
+    padding: 3px;
+    margin-bottom: 5px;
+    border: 0;
+}
+
+aside form button {
+    margin-top: 5px;
+}
+
