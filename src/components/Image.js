@@ -4,7 +4,7 @@ class Image extends React.Component {
     render () {
         return (
             <div id="timePicture">
-            <img src={this.props.path} alt='some value'/>
+            <img src={this.props.path} alt='time icon'/>
             </div>
         )
     }
